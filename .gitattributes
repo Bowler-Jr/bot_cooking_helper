@@ -1,0 +1,14 @@
+# Нормализация переносов строк
+* text=auto
+
+# Русский текст в UTF-8
+*.py working-tree-encoding=UTF-8
+*.json working-tree-encoding=UTF-8
+*.md working-tree-encoding=UTF-8
+requirements.txt working-tree-encoding=UTF-8
+
+# Универсальные переносы строк
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+requirements.txt text eol=lf
